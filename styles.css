@@ -74,7 +74,9 @@ ul li {
   transform: rotateY(-30deg) rotateX(15deg);
   mix-blend-mode: multiply;
   color: #494949;
-  transition: transform .4s ease-in-out;
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+       -o-transition: transform .4s ease-in-out;
+          transition: transform .4s ease-in-out;
 }
 
 ul li:nth-child(1) {
